@@ -1,6 +1,6 @@
 # Design Bomb — reconstrução React
 
-Reconstrução fidelity-first em React + Vite a partir da cópia HTTrack fornecida.
+Reconstrução integral e responsiva em React + Vite, sem iframe e sem dependências do Framer.
 
 ## Rodar
 ```bash
@@ -14,6 +14,6 @@ npm run build
 npm run preview
 ```
 
-As páginas originais espelhadas ficam em `public/mirror/`. O React controla as rotas principais e mantém o HTML/CSS/JS/Framer original dentro do frame para preservar animações, responsividade e interações com máxima fidelidade.
+## Rotas
 
-Observação: o snapshot ainda referencia alguns bundles/fontes remotos do Framer. Para independência total do Framer, esses efeitos precisam ser reimplementados componente a componente em React/CSS/JS.
+Home, Programma, Ticket, Workshop, Mercatino, Cameretta, Spedizioni e Resi e a página do workshop “Fiorisci”. A navegação client-side, os componentes, as animações e os estados interativos são implementados localmente.
